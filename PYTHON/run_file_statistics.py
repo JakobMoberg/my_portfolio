@@ -1,3 +1,22 @@
+  
+#    created by Jakob Moberg, moberg.jakob@gmail.com 15/4/2014
+#    Start-function: main part of script, 
+#    programm for comparing two folders of tab delimited txt files
+  
+
+import glob
+import os
+
+# folder assumed to have correct data in .txt files
+lib="P:/Stress Test & Simulation/2014 Stress Testing/ICAAP/SAS_folder/Input"
+
+#folder to be tested
+test_lib="P:/Stress Test & Simulation/2014 Stress Testing/IMF FSAP/SAS_folder/Input/5Y"
+
+check_folder(lib,test_lib)
+
+
+
 def check_file(lib_ref,lib_test,fileName):
 #Compares two version of a text file with name=fileName in the two difference 
 # folders lib_ref and lib_test
@@ -95,19 +114,4 @@ def check_folder(lib_ref,lib_test):
 #Compares files contained in both of the folders
         check_file(lib_ref,test_lib,item) 
   
-   
-#    created by Jakob Moberg, moberg.jakob@gmail.com 15/4/2014
-#    Start-function: main part of script, 
-
-  
-
-import glob
-import os
-
-# folder assumed to have correct data in .txt files
-lib="P:/Stress Test & Simulation/2014 Stress Testing/ICAAP/SAS_folder/Input"
-
-#folder to be tested
-test_lib="P:/Stress Test & Simulation/2014 Stress Testing/IMF FSAP/SAS_folder/Input/5Y"
-
-check_folder(lib,test_lib)
+ 

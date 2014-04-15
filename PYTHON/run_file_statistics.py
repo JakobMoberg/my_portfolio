@@ -1,17 +1,17 @@
   
 #    created by Jakob Moberg, moberg.jakob@gmail.com 15/4/2014
 #    Start-function: main part of script, 
-#    programm for comparing two folders of tab delimited txt files
+#    program for comparing two folders of tab delimited txt files
   
 
 import glob
 import os
 
 # folder assumed to have correct data in .txt files
-lib="P:/Stress Test & Simulation/2014 Stress Testing/ICAAP/SAS_folder/Input"
+lib="C:/correct"
 
 #folder to be tested
-test_lib="P:/Stress Test & Simulation/2014 Stress Testing/IMF FSAP/SAS_folder/Input/5Y"
+test_lib="c:/test"
 
 check_folder(lib,test_lib)
 

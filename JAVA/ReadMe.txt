@@ -1,4 +1,4 @@
-This is a Programming Exercise I did in JAVA in April 2013 for a Job interview as a Game Mathematician at a an 
+This is a Programming Exercise I did in JAVA in April 2013 for a Job interview as a Game Mathematician at an 
 Online-gaming company.
 
 It was done during a weekend and covers combinatorics and programming in JAVA. 

@@ -1,0 +1,30 @@
+Problems:
+1. Poker hand
+If you are dealt a 5 card poker hand, what is the probability that you have a straight?
+
+2. Lottery ticket
+Imagine a lottery ticket called Ultra win:
+Price: €5
+Payouts:
+Probability Win
+20% €9
+10% €18
+10% Two new Ultra win tickets
+60% No win
+Calculate the expected value in Euros of one Ultra win ticket.
+
+3. Uniform draw
+You have an array of an unknown number of elements. You may only store one element in memory at a time and you may only access each element in the array once. You want to draw one of the elements uniformly randomly.
+Please provide an algorithm for accomplishing this.
+
+Simulation exercise
+What is the probability of winning the following game “the wristwatch”?
+From one deck of cards you place cards face up in a ring of 12 cards. The 13th in the middle of the
+ring. If an Ace was put on “place one” or a deuce on “place two” and so on (a king on “place 13”) you
+simply skip that place on the next lap and continue to place cards on top of the cards not
+corresponding to their positions.
+Every time you have a new match you pick up the cards on that certain position and place them in
+the bottom of your deck and leave the matched card on its position in the ring. You continue this
+procedure until you either run out of cards or have all 13 positions matched.
+You win if you have all 13 positions matched. Please provide the answer together with simulation
+code or similar.

@@ -56,7 +56,7 @@ for strings in data:
     tcgvec.append(tcgprice)
 
 tcgavg=0
-
+tcgavg=avg(tcgvec)
 
 
 
